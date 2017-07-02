@@ -1,0 +1,86 @@
+            html, body {
+                height: 100%;
+            }
+
+            body {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                display: table;
+                font-weight: 100;
+                font-family: 'Lato';
+            }
+            .content {
+                text-align: center;
+                display: inline-block;
+            }
+            .footer{
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            #main-container{
+                padding-bottom: 10px;
+                padding-top:10px;
+            }
+
+            .vertical-center{
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+            }
+            .nav-button{
+                padding-right: 15px;
+                padding-left: 15px;
+                font-size: 16px;
+                font-weight: 600;
+                color:#fff;
+            }
+            .nav-button a{
+                color:#fff;
+            }
+
+
+
+            @media (max-width: 700px) {
+                #wangzhi{
+                    display: none;
+                }
+                #language{
+                    display: none;
+                }
+
+
+                .nav-button{
+                    padding-right: 5px;
+                    padding-left: 5px;
+                    font-size: 12px;
+                    font-weight: 600;
+                    color:#fff;
+                }
+
+                #footer-front{
+                    font-size: 12px;
+                }
+
+                #footer-logo{
+                    margin-top: 0px; 
+                    margin-bottom:8px;
+                    max-width:80%
+                }
+            }
+
+
+            @media (min-width: 700px) {
+                #wangzhi{
+                    display: none;
+                }
+                #language{
+                    margin-top: 30px;
+                }
+
+                #footer-logo{
+                    margin-top: 8px; 
+                    margin-bottom:8px; 
+                    max-width:80%
+                }
